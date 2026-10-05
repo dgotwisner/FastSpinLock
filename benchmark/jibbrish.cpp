@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <thread>
 #include <mutex>
@@ -9,6 +10,7 @@
 #include <sys/time.h>
 #include <atomic>
 #include <array>
+#include <string>
 
 static const uint64_t c_usecPerSec = 1000*1000;
 
