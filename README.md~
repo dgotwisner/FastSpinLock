@@ -1,0 +1,15 @@
+class MyLock {
+public:
+    MyLock() {
+        m_lock = false;
+    }
+    void lock() {
+        while (std::atomic_exchange_explicit(&m_lock, true, std::memory_order_acquire))
+            ;
+    }
+    void unlock() {
+        std::atomic_store_explicit(&m_lock, false, std::memory_order_release);
+    }
+private:
+    std::atomic<bool> m_lock;
+};
