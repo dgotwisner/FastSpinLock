@@ -37,6 +37,9 @@ public:
     void unlock() {
         std::atomic_store_explicit(&m_lock, false, std::memory_order_release);
     }
+    bool try_lock() {
+        return !std::atomic_exchange_explicit(&m_lock, true, std::memory_order_acquire);
+    }
 private:
     std::atomic<bool> m_lock;
 };
