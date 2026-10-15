@@ -16,7 +16,7 @@ plot "myMutex.out" using 3:9 with lp title "FastSpinLock", \
 outfile="locksPerSecond"
 load "export.gp"
 
-set title "Cores vs locks/second"
+set title "Cores vs user+system time"
 set xlabel "Cores"
 set ylabel "user+sys time"
 
