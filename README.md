@@ -20,9 +20,10 @@ This project includes:
 - the header‑only lock implementation (`FastSpinLock.hpp`)
 - a benchmark directory (`benchmark`), which contains a benchmark program that uses wrapped std::mutex and this class and scaled
   between 0 and 29 worker threads (1-30 total threads including main).  Gnuplot scripts (and png files) associated with a run on a
-  CentOS 7 40-core 3.1 GHZ single-socket CPU and their input CSV files and output PNG files are attached in the repo.
+  CentOS 7 40-core 3.1 GHZ single-socket CPU and their input CSV files and output PNG files are attached in the repo.  `Bench64` and `bench128`
+  are identical to `benchmark`, except that they are modified to use asignas(64) and asignas(128), respectively.
 - Unit test directory (`tests`) is also provided with unit tests that will do std::unique_lock, std::lock_guard, and
-  std::condition_variable_any are also provided.
+  std::condition_variable_any are also provided.  It also has tests for try_lock.
 
 ---
 
@@ -33,6 +34,9 @@ up writing high performance replacements at three different companies, from scra
 and time).  For lower thread-count, a much more efficient solution exists, since we don't have to worry about "contention forever"
 cases.  This is an open source equivalent that takes into consideration my multi-core, NUMA aware work, up to 4096 cores over
 decades of programming.
+
+This code is actually the completion of the code that I wrote on my own time, that I made available to those three companies.
+This code adds try_lock, unit tests, and formalizes the benchmarks, over what was copied and used at those companies.
 
 The idea is, that well designed code should have mutexes around small numbers of threads, with them being held for limited
 amounts of time.  This implementation is optimized for that case.  Std::mutex is implemented for the generic "do no harm" case.
@@ -82,6 +86,9 @@ public:
     void unlock() {
         std::atomic_store_explicit(&m_lock, false,
                                    std::memory_order_release);
+    }
+    bool try_lock() {
+        return !std::atomic_exchange_explicit(&m_lock, true, std::memory_order_acquire);
     }
 private:
     std::atomic<bool> m_lock;
@@ -170,14 +177,15 @@ threads, so the values at 0 actually have a main process and zero threads doing 
 
 Each test does 10 tests each for each of FastSpinLock and std::mutex at each number of threads.
 
-In this plot, the larger numbers are best.
+In this plot, the larger numbers along the Y axis are best.
 
 ![locks per second](benchmark/locksPerSecond.png)
 
 And the second takes the cumulative CPU time of the threads (including the clock_gettime() calls around the lock/unlock calls
 and the loop overhead).
 
-In this plot, the smaller numbers are best.
+In this plot, the smaller numbers on the Y axis are best.  Note that the degradation of std::mutex is linear, and, when FastSpinLock flips from better to worse (18 total threads),
+it fails catastrophically.
 
 ![user + system CPU time](benchmark/user+sysTime.png)
 
@@ -192,7 +200,14 @@ The idea for testing with **alignas** came from a Grok query, and from the test,
 doing the alignment, possibly because it produces a bigger hit on cacheline access / invalidation.
 
 For the percent values, +/- 5% is left in black.  If it's worse outside that range, it's in red.
+
 If it's better outside that range, it's in green.
+
+Notice that for Locks/second, the optimal point in the data is at 7 threads (main + 7 threads), where we see 3.6 times the number of locks/second than we do with std::mutex.
+And for user+system time (CPU time) we see 38.6% of the CPU time for FastSpinLock in this case over std::mutex.  Another thing to note, that for FastSpinLock, there is
+near-zero (zero for when we FastSpinLock is better than std::mutex) System time, whereas with std::mutex, most of the time is system time, so, FastSpinLock has zero context
+switch overhead (which doesn't show up in a program's CPU time numbers).  Note that the color of alignas(64) User+System time has a bug - it shows up as black, not red, for
+19+ cores (and main).  This will be fixed in a future commit.
 
 <table>
     <thead>
