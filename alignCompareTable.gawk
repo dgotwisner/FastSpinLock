@@ -114,7 +114,7 @@ END {
             #usrSysAlign128=(accum["Mutex", "User", "Align128", i] + accum["Mutex", "System", "Align128", i]);
 
             printf("\t    <!-- Threads -->\n");
-            printf("\t        <td %s>pct</span></td>\n", normal);
+            printf("\t        <td %s><span %s>pct</span></td>\n", align, normal);
 
             printf("\t    <!-- Mutex Locks / Second -->\n");
                 mtxLpsNoAlign=accum["Mutex", "LocksPerSecond", "NoAlign", i];
@@ -130,9 +130,9 @@ END {
                 if (mtxLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
                 else if (mtxLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s></span></td>\n", normal);
-                printf("\t        <td %s> %.3f</span></td>\n", data64, mtxLpsAlign64Pct);
-                printf("\t        <td %s> %.3f</span></td>\n", data128, mtxLpsAlign128Pct);
+                printf("\t        <td %s><span %s></span></td>\n", align, normal);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, mtxLpsAlign64Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, mtxLpsAlign128Pct);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- Mutex User+System -->\n");
@@ -156,9 +156,9 @@ END {
                 if (mtxTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
                 else if (mtxTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s></span></td>\n", normal);
-                printf("\t        <td %s> %.3f</span></td>\n", data64, mtxTimeAlign64Pct);
-                printf("\t        <td %s> %.3f</span></td>\n", data128, mtxTimeAlign128Pct);
+                printf("\t        <td %s><span %s></span></td>\n", align, normal);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, mtxTimeAlign64Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, mtxTimeAlign128Pct);
 
             #lps = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock Locks / Second -->\n");
@@ -180,9 +180,9 @@ END {
                 if (fslLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
                 else if (fslLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s> %.3f</span></td>\n", data64, fslLpsNoAlignPct);
-                printf("\t        <td %s> %.3f</span></td>\n", data64, fslLpsAlign64Pct);
-                printf("\t        <td %s> %.3f</span></td>\n", data128, fslLpsAlign128Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslLpsNoAlignPct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslLpsAlign64Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, fslLpsAlign128Pct);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock User+System -->\n");
@@ -211,9 +211,9 @@ END {
                 if (fslTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
                 else if (fslTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s> %.3f</span></td>\n", data, fslTimeNoAlignPct);
-                printf("\t        <td %s> %.3f</span></td>\n", data64, fslTimeAlign64Pct);
-                printf("\t        <td %s> %.3f</span></td>\n", data128, fslTimeAlign128Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data, fslTimeNoAlignPct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslTimeAlign64Pct);
+                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, fslTimeAlign128Pct);
 
         printf("\t</tr>\n");
     }
