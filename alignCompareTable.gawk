@@ -73,8 +73,8 @@ END {
         align=           "style=\"text-align: right;\"";
         normal=          "";
         rightBold=       "style=\"font-weight:bold;\"";
-        betterThanNormal="style=\"color: green;\"";
-        worseThanNormal= "style=\"color: red;\"";
+        betterThanNormal="style=\"color: rgb(0,255,0);\"";
+        worseThanNormal= "style=\"color: rgb(255,0,0);\"";
 
         # First row is the actual data
         printf("\t<tr>\n");
