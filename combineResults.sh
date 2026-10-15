@@ -14,3 +14,4 @@ cat bench128/results.txt >> combinedResults.txt
 
 rm -f readmeHtml.txt
 awk -f alignCompareTable.gawk combinedResults.txt > readmeHtml.txt
+awk -f alignCompareTable-alignment-results.gawk combinedResults.txt > docs/alignment-results.md
