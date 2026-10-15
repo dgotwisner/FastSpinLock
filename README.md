@@ -278,20 +278,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.673</span></td>
-	        <td style="text-align: right;"><span > 99.349</span></td>
+	        <td style="text-align: right;"><span > 98.673 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.349 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.319</span></td>
-	        <td style="text-align: right;"><span > 100.637</span></td>
+	        <td style="text-align: right;"><span > 101.319 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.637 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.864</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.117</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 142.943</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.864 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.117 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 142.943 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 81.187</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 81.779</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 80.755</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 81.187 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 81.779 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 80.755 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -318,20 +318,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 103.277</span></td>
-	        <td style="text-align: right;"><span > 101.894</span></td>
+	        <td style="text-align: right;"><span > 103.277 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.894 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.822</span></td>
-	        <td style="text-align: right;"><span > 99.944</span></td>
+	        <td style="text-align: right;"><span > 99.822 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.944 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 168.232</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 145.709</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.905</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 168.232 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 145.709 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 141.905 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 70.374</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 76.807</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 77.477</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 70.374 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 76.807 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 77.477 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -358,20 +358,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.326</span></td>
-	        <td style="text-align: right;"><span > 101.016</span></td>
+	        <td style="text-align: right;"><span > 101.326 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.016 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.594</span></td>
-	        <td style="text-align: right;"><span > 98.956</span></td>
+	        <td style="text-align: right;"><span > 98.594 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.956 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 229.271</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 186.243</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 202.765</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 229.271 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 186.243 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 202.765 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 58.133</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 69.038</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 65.389</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 58.133 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 69.038 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 65.389 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -398,20 +398,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 102.579</span></td>
-	        <td style="text-align: right;"><span > 102.370</span></td>
+	        <td style="text-align: right;"><span > 102.579 ⚫</span></td>
+	        <td style="text-align: right;"><span > 102.370 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 97.703</span></td>
-	        <td style="text-align: right;"><span > 97.798</span></td>
+	        <td style="text-align: right;"><span > 97.703 ⚫</span></td>
+	        <td style="text-align: right;"><span > 97.798 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 273.982</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 276.507</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 271.911</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 273.982 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 276.507 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 271.911 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.358</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 51.808</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 52.601</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.358 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 51.808 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 52.601 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -438,20 +438,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.271</span></td>
-	        <td style="text-align: right;"><span > 100.306</span></td>
+	        <td style="text-align: right;"><span > 100.271 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.306 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.881</span></td>
-	        <td style="text-align: right;"><span > 99.676</span></td>
+	        <td style="text-align: right;"><span > 99.881 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.676 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 314.438</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 326.895</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 328.074</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 314.438 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 326.895 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 328.074 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.386</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.928</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.892</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.386 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.928 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.892 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -478,20 +478,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.074</span></td>
-	        <td style="text-align: right;"><span > 101.995</span></td>
+	        <td style="text-align: right;"><span > 101.074 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.995 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.964</span></td>
-	        <td style="text-align: right;"><span > 98.131</span></td>
+	        <td style="text-align: right;"><span > 98.964 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.131 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 345.919</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 338.666</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 339.300</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 345.919 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 338.666 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 339.300 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 39.420</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.953</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.945</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 39.420 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.953 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.945 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -518,20 +518,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.685</span></td>
-	        <td style="text-align: right;"><span > 101.688</span></td>
+	        <td style="text-align: right;"><span > 101.685 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.688 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.467</span></td>
-	        <td style="text-align: right;"><span > 98.467</span></td>
+	        <td style="text-align: right;"><span > 98.467 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.467 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 351.573</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 342.055</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 347.853</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 351.573 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 342.055 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 347.853 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 38.937</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.368</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.224</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 38.937 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.368 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.224 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -558,20 +558,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.939</span></td>
-	        <td style="text-align: right;"><span > 99.427</span></td>
+	        <td style="text-align: right;"><span > 99.939 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.427 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.025</span></td>
-	        <td style="text-align: right;"><span > 100.686</span></td>
+	        <td style="text-align: right;"><span > 100.025 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.686 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 360.249</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 328.956</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 329.356</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 360.249 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 328.956 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 329.356 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 38.593</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.816</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.887</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 38.593 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.816 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.887 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -598,20 +598,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.408</span></td>
-	        <td style="text-align: right;"><span > 101.259</span></td>
+	        <td style="text-align: right;"><span > 98.408 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.259 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.705</span></td>
-	        <td style="text-align: right;"><span > 98.771</span></td>
+	        <td style="text-align: right;"><span > 101.705 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.771 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 338.814</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.283</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 321.171</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 338.814 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.283 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 321.171 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.204</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.354</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.312</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.204 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.354 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.312 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -638,20 +638,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.630</span></td>
-	        <td style="text-align: right;"><span > 100.141</span></td>
+	        <td style="text-align: right;"><span > 98.630 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.141 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.394</span></td>
-	        <td style="text-align: right;"><span > 99.957</span></td>
+	        <td style="text-align: right;"><span > 101.394 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.957 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 327.659</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 308.980</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.281</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 327.659 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 308.980 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.281 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.914</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.026</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.063</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.914 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.026 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.063 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -678,20 +678,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.428</span></td>
-	        <td style="text-align: right;"><span > 99.786</span></td>
+	        <td style="text-align: right;"><span > 99.428 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.786 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.552</span></td>
-	        <td style="text-align: right;"><span > 100.126</span></td>
+	        <td style="text-align: right;"><span > 100.552 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.126 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 257.506</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 310.935</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.089</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 257.506 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 310.935 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 323.089 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.536</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.467</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.396</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.536 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.467 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.396 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -718,20 +718,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.165</span></td>
-	        <td style="text-align: right;"><span > 100.057</span></td>
+	        <td style="text-align: right;"><span > 98.165 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.057 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.902</span></td>
-	        <td style="text-align: right;"><span > 100.049</span></td>
+	        <td style="text-align: right;"><span > 101.902 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.049 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 260.072</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 314.063</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 324.523</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 260.072 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 314.063 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 324.523 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.331</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.380</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.666</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.331 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.380 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 46.666 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -758,20 +758,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.156</span></td>
-	        <td style="text-align: right;"><span > 103.024</span></td>
+	        <td style="text-align: right;"><span > 101.156 ⚫</span></td>
+	        <td style="text-align: right;"><span > 103.024 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.923</span></td>
-	        <td style="text-align: right;"><span > 97.158</span></td>
+	        <td style="text-align: right;"><span > 98.923 ⚫</span></td>
+	        <td style="text-align: right;"><span > 97.158 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 255.222</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 296.188</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 339.167</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 255.222 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 296.188 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 339.167 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.951</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.703</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.044</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.951 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.703 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 42.044 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -798,20 +798,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.333</span></td>
-	        <td style="text-align: right;"><span > 100.966</span></td>
+	        <td style="text-align: right;"><span > 99.333 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.966 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.780</span></td>
-	        <td style="text-align: right;"><span > 99.068</span></td>
+	        <td style="text-align: right;"><span > 100.780 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.068 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 240.430</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 280.384</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 325.756</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 240.430 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 280.384 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 325.756 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.992</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.359</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.072</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.992 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.359 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.072 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -838,20 +838,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.876</span></td>
-	        <td style="text-align: right;"><span > 99.265</span></td>
+	        <td style="text-align: right;"><span > 100.876 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.265 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.146</span></td>
-	        <td style="text-align: right;"><span > 100.671</span></td>
+	        <td style="text-align: right;"><span > 99.146 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.671 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 222.874</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 263.820</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 307.058</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 222.874 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 263.820 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 307.058 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 54.533</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.967</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.111</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 54.533 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 45.967 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 41.111 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -878,20 +878,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 97.707</span></td>
-	        <td style="text-align: right;"><span > 97.828</span></td>
+	        <td style="text-align: right;"><span > 97.707 ⚫</span></td>
+	        <td style="text-align: right;"><span > 97.828 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 102.503</span></td>
-	        <td style="text-align: right;"><span > 102.095</span></td>
+	        <td style="text-align: right;"><span > 102.503 ⚫</span></td>
+	        <td style="text-align: right;"><span > 102.095 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 220.578</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 239.145</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 272.395</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 220.578 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 239.145 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 272.395 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 55.291</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.659</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.144</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 55.291 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 48.659 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.144 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -918,20 +918,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.763</span></td>
-	        <td style="text-align: right;"><span > 100.116</span></td>
+	        <td style="text-align: right;"><span > 100.763 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.116 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.295</span></td>
-	        <td style="text-align: right;"><span > 99.896</span></td>
+	        <td style="text-align: right;"><span > 99.295 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.896 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 208.087</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 239.015</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 265.283</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 208.087 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 239.015 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 265.283 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 58.340</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.536</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.281</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 58.340 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 47.536 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 43.281 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -958,20 +958,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.649</span></td>
-	        <td style="text-align: right;"><span > 101.073</span></td>
+	        <td style="text-align: right;"><span > 101.649 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.073 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.429</span></td>
-	        <td style="text-align: right;"><span > 99.068</span></td>
+	        <td style="text-align: right;"><span > 98.429 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.068 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 191.522</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 202.633</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 251.542</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 191.522 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 202.633 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 251.542 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 62.669</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 55.979</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.946</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 62.669 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 55.979 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 44.946 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -998,20 +998,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 97.105</span></td>
-	        <td style="text-align: right;"><span > 98.728</span></td>
+	        <td style="text-align: right;"><span > 97.105 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.728 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 102.920</span></td>
-	        <td style="text-align: right;"><span > 101.379</span></td>
+	        <td style="text-align: right;"><span > 102.920 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.379 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 109.185</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 127.712</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 217.548</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 109.185 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 127.712 🟢</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 217.548 🟢</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 106.921</span></td>
-	        <td style="text-align: right;"><span > 97.371</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.571</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 106.921 🔴</span></td>
+	        <td style="text-align: right;"><span > 97.371 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(0,255,0);"> 50.571 🟢</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1038,20 +1038,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.771</span></td>
-	        <td style="text-align: right;"><span > 100.484</span></td>
+	        <td style="text-align: right;"><span > 98.771 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.484 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.056</span></td>
-	        <td style="text-align: right;"><span > 99.408</span></td>
+	        <td style="text-align: right;"><span > 101.056 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.408 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 70.981</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 68.006</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 88.108</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 70.981 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 68.006 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 88.108 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 146.517</span></td>
-	        <td style="text-align: right;"><span > 150.356</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 117.751</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 146.517 🔴</span></td>
+	        <td style="text-align: right;"><span > 150.356 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 117.751 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1078,20 +1078,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.352</span></td>
-	        <td style="text-align: right;"><span > 102.231</span></td>
+	        <td style="text-align: right;"><span > 100.352 ⚫</span></td>
+	        <td style="text-align: right;"><span > 102.231 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.591</span></td>
-	        <td style="text-align: right;"><span > 97.791</span></td>
+	        <td style="text-align: right;"><span > 99.591 ⚫</span></td>
+	        <td style="text-align: right;"><span > 97.791 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 54.883</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.838</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 60.231</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 54.883 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.838 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 60.231 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 186.379</span></td>
-	        <td style="text-align: right;"><span > 192.447</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 168.728</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 186.379 🔴</span></td>
+	        <td style="text-align: right;"><span > 192.447 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 168.728 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1118,20 +1118,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.255</span></td>
-	        <td style="text-align: right;"><span > 99.672</span></td>
+	        <td style="text-align: right;"><span > 99.255 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.672 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.570</span></td>
-	        <td style="text-align: right;"><span > 100.385</span></td>
+	        <td style="text-align: right;"><span > 100.570 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.385 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 48.660</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 45.013</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 48.376</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 48.660 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 45.013 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 48.376 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 210.201</span></td>
-	        <td style="text-align: right;"><span > 224.940</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 208.992</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 210.201 🔴</span></td>
+	        <td style="text-align: right;"><span > 224.940 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 208.992 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1158,20 +1158,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.891</span></td>
-	        <td style="text-align: right;"><span > 100.230</span></td>
+	        <td style="text-align: right;"><span > 98.891 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.230 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.212</span></td>
-	        <td style="text-align: right;"><span > 99.799</span></td>
+	        <td style="text-align: right;"><span > 101.212 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.799 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.536</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 49.988</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.723</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.536 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 49.988 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 52.723 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 194.983</span></td>
-	        <td style="text-align: right;"><span > 202.699</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 192.113</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 194.983 🔴</span></td>
+	        <td style="text-align: right;"><span > 202.699 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 192.113 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1198,20 +1198,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.539</span></td>
-	        <td style="text-align: right;"><span > 98.092</span></td>
+	        <td style="text-align: right;"><span > 100.539 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.092 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.523</span></td>
-	        <td style="text-align: right;"><span > 102.041</span></td>
+	        <td style="text-align: right;"><span > 99.523 ⚫</span></td>
+	        <td style="text-align: right;"><span > 102.041 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 40.398</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 38.624</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 39.445</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 40.398 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 38.624 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 39.445 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 252.539</span></td>
-	        <td style="text-align: right;"><span > 261.339</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 256.279</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 252.539 🔴</span></td>
+	        <td style="text-align: right;"><span > 261.339 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 256.279 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1238,20 +1238,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.018</span></td>
-	        <td style="text-align: right;"><span > 99.342</span></td>
+	        <td style="text-align: right;"><span > 98.018 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.342 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 102.073</span></td>
-	        <td style="text-align: right;"><span > 100.704</span></td>
+	        <td style="text-align: right;"><span > 102.073 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.704 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 45.621</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 42.795</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 43.229</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 45.621 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 42.795 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 43.229 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 224.389</span></td>
-	        <td style="text-align: right;"><span > 235.558</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 233.674</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 224.389 🔴</span></td>
+	        <td style="text-align: right;"><span > 235.558 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 233.674 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1278,20 +1278,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.981</span></td>
-	        <td style="text-align: right;"><span > 98.109</span></td>
+	        <td style="text-align: right;"><span > 98.981 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.109 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.961</span></td>
-	        <td style="text-align: right;"><span > 101.899</span></td>
+	        <td style="text-align: right;"><span > 100.961 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.899 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 36.992</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 33.608</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 33.407</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 36.992 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 33.608 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 33.407 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 275.930</span></td>
-	        <td style="text-align: right;"><span > 299.441</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 301.359</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 275.930 🔴</span></td>
+	        <td style="text-align: right;"><span > 299.441 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 301.359 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1318,20 +1318,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 98.227</span></td>
-	        <td style="text-align: right;"><span > 100.258</span></td>
+	        <td style="text-align: right;"><span > 98.227 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.258 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 101.781</span></td>
-	        <td style="text-align: right;"><span > 99.753</span></td>
+	        <td style="text-align: right;"><span > 101.781 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.753 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 42.079</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 37.571</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 38.911</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 42.079 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 37.571 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 38.911 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 240.453</span></td>
-	        <td style="text-align: right;"><span > 268.343</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 259.566</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 240.453 🔴</span></td>
+	        <td style="text-align: right;"><span > 268.343 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 259.566 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1358,20 +1358,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.415</span></td>
-	        <td style="text-align: right;"><span > 99.396</span></td>
+	        <td style="text-align: right;"><span > 100.415 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.396 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.552</span></td>
-	        <td style="text-align: right;"><span > 100.574</span></td>
+	        <td style="text-align: right;"><span > 99.552 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.574 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 34.474</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 32.075</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 31.388</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 34.474 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 32.075 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 31.388 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 292.289</span></td>
-	        <td style="text-align: right;"><span > 314.204</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 320.946</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 292.289 🔴</span></td>
+	        <td style="text-align: right;"><span > 314.204 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 320.946 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1398,20 +1398,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.025</span></td>
-	        <td style="text-align: right;"><span > 101.599</span></td>
+	        <td style="text-align: right;"><span > 100.025 ⚫</span></td>
+	        <td style="text-align: right;"><span > 101.599 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.009</span></td>
-	        <td style="text-align: right;"><span > 98.378</span></td>
+	        <td style="text-align: right;"><span > 100.009 ⚫</span></td>
+	        <td style="text-align: right;"><span > 98.378 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 39.735</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 36.960</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 35.012</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 39.735 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 36.960 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 35.012 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 254.477</span></td>
-	        <td style="text-align: right;"><span > 273.079</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 287.934</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 254.477 🔴</span></td>
+	        <td style="text-align: right;"><span > 273.079 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 287.934 🔴</span></td>
 	</tr>
 	<tr>
 	    <!-- Threads -->
@@ -1438,20 +1438,20 @@ If it's better outside that range, it's in green.
 	        <td style="text-align: right;"><span >pct</span></td>
 	    <!-- Mutex Locks / Second -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 99.491</span></td>
-	        <td style="text-align: right;"><span > 100.811</span></td>
+	        <td style="text-align: right;"><span > 99.491 ⚫</span></td>
+	        <td style="text-align: right;"><span > 100.811 ⚫</span></td>
 	    <!-- Mutex User+System -->
 	        <td style="text-align: right;"><span ></span></td>
-	        <td style="text-align: right;"><span > 100.484</span></td>
-	        <td style="text-align: right;"><span > 99.165</span></td>
+	        <td style="text-align: right;"><span > 100.484 ⚫</span></td>
+	        <td style="text-align: right;"><span > 99.165 ⚫</span></td>
 	    <!-- FastSpinLock Locks / Second -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 32.790</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 29.800</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 30.541</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 32.790 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 29.800 🔴</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 30.541 🔴</span></td>
 	    <!-- FastSpinLock User+System -->
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 308.261</span></td>
-	        <td style="text-align: right;"><span > 337.848</span></td>
-	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 329.547</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 308.261 🔴</span></td>
+	        <td style="text-align: right;"><span > 337.848 ⚫</span></td>
+	        <td style="text-align: right;"><span style="color: rgb(255,0,0);"> 329.547 🔴</span></td>
 	</tr>
         <!-- Replace through the line above this one-->
     </tbody>

@@ -76,6 +76,10 @@ END {
         betterThanNormal="style=\"color: rgb(0,255,0);\"";
         worseThanNormal= "style=\"color: rgb(255,0,0);\"";
 
+        blackCircle=     "\342\232\253";
+        greenCircle=     "\360\237\237\242";
+        redCircle=       "\360\237\224\264";
+
         # First row is the actual data
         printf("\t<tr>\n");
 
@@ -107,12 +111,6 @@ END {
         # Second row has the % vs the NoAlign std::mutex case
         printf("\t<tr>\n");
 
-            #usrSysNoAlign=(accum["Mutex", "User", "NoAlign", i] + accum["Mutex", "System", "NoAlign", i]);
-            #lpsAlign64Value=accum["Mutex", "LocksPerSecond", "Align64", i];
-            #usrSysAlign64=(accum["Mutex", "User", "Align64", i] + accum["Mutex", "System", "Align64", i]);
-            #lpsAlign128Value=accum["Mutex", "LocksPerSecond", "Align128", i];
-            #usrSysAlign128=(accum["Mutex", "User", "Align128", i] + accum["Mutex", "System", "Align128", i]);
-
             printf("\t    <!-- Threads -->\n");
             printf("\t        <td %s><span %s>pct</span></td>\n", align, normal);
 
@@ -124,15 +122,15 @@ END {
                 mtxLpsAlign128Pct=mtxLpsAlign128/mtxLpsNoAlign;
                 mtxLpsAlign64Pct *= 100.0;
                 mtxLpsAlign128Pct *= 100.0;
-                if (mtxLpsAlign64Pct > 105.0) { data64=betterThanNormal; }
-                else if (mtxLpsAlign64Pct < 95.0) { data64=worseThanNormal; }
-                else { data64=normal; }
-                if (mtxLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
-                else if (mtxLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
-                else { data128=normal; }
+                if (mtxLpsAlign64Pct > 105.0) { data64=betterThanNormal; circle64=greenCircle; }
+                else if (mtxLpsAlign64Pct < 95.0) { data64=worseThanNormal; circle64=redCircle; }
+                else { data64=normal; circle64=blackCircle; }
+                if (mtxLpsAlign128Pct > 105.0) { data128=betterThanNormal; circle128=greenCircle; }
+                else if (mtxLpsAlign128Pct < 95.0) { data128=worseThanNormal; circle128=redCircle; }
+                else { data128=normal; circle128=blackCircle; }
                 printf("\t        <td %s><span %s></span></td>\n", align, normal);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, mtxLpsAlign64Pct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, mtxLpsAlign128Pct);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data64, mtxLpsAlign64Pct, circle64);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data128, mtxLpsAlign128Pct, circle128);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- Mutex User+System -->\n");
@@ -150,15 +148,15 @@ END {
                 mtxTimeAlign128Pct=mtxTimeAlign128/mtxTimeNoAlign;
                 mtxTimeAlign64Pct *= 100.0;
                 mtxTimeAlign128Pct *= 100.0;
-                if (mtxTimeAlign64Pct > 105.0) { data64=worseThanNormal; }
-                else if (mtxTimeAlign64Pct < 95.0) { data64=betterThanNormal; }
-                else { data64=normal; }
-                if (mtxTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
-                else if (mtxTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
-                else { data128=normal; }
+                if (mtxTimeAlign64Pct > 105.0) { data64=worseThanNormal; circle64=redCircle; }
+                else if (mtxTimeAlign64Pct < 95.0) { data64=betterThanNormal; circle64=greenCircle; }
+                else { data64=normal; circle64=blackCircle; }
+                if (mtxTimeAlign128Pct > 105.0) { data128=worseThanNormal; circle128=redCircle; }
+                else if (mtxTimeAlign128Pct < 95.0) { data128=betterThanNormal; circle128=greenCircle; }
+                else { data128=normal; circle128=blackCircle; }
                 printf("\t        <td %s><span %s></span></td>\n", align, normal);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, mtxTimeAlign64Pct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, mtxTimeAlign128Pct);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data64, mtxTimeAlign64Pct, circle64);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data128, mtxTimeAlign128Pct, circle128);
 
             #lps = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock Locks / Second -->\n");
@@ -171,18 +169,18 @@ END {
                 fslLpsNoAlignPct *= 100.0;
                 fslLpsAlign64Pct *= 100.0;
                 fslLpsAlign128Pct *= 100.0;
-                if (fslLpsNoAlignPct > 105.0) { data=betterThanNormal; }
-                else if (fslLpsNoAlignPct < 95.0) { data=worseThanNormal; }
-                else { data=normal; }
-                if (fslLpsAlign64Pct > 105.0) { data64=betterThanNormal; }
-                else if (fslLpsAlign64Pct < 95.0) { data64=worseThanNormal; }
-                else { data64=normal; }
-                if (fslLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
-                else if (fslLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
-                else { data128=normal; }
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslLpsNoAlignPct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslLpsAlign64Pct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, fslLpsAlign128Pct);
+                if (fslLpsNoAlignPct > 105.0) { data=betterThanNormal; circle=greenCircle; }
+                else if (fslLpsNoAlignPct < 95.0) { data=worseThanNormal; circle=redCircle; }
+                else { data=normal; circle=blackCircle; }
+                if (fslLpsAlign64Pct > 105.0) { data64=betterThanNormal; circle64=greenCircle; }
+                else if (fslLpsAlign64Pct < 95.0) { data64=worseThanNormal; circle64=redCircle; }
+                else { data64=normal; circle64=blackCircle; }
+                if (fslLpsAlign128Pct > 105.0) { data128=betterThanNormal; circle128=greenCircle; }
+                else if (fslLpsAlign128Pct < 95.0) { data128=worseThanNormal; circle128=redCircle; }
+                else { data128=normal; circle128=blackCircle; }
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data, fslLpsNoAlignPct, circle);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data64, fslLpsAlign64Pct, circle64);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data128, fslLpsAlign128Pct, circle128);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock User+System -->\n");
@@ -202,18 +200,18 @@ END {
                 fslTimeNoAlignPct *= 100.0;
                 fslTimeAlign64Pct *= 100.0;
                 fslTimeAlign128Pct *= 100.0;
-                if (fslTimeNoAlignPct > 105.0) { data=worseThanNormal; }
-                else if (fslTimeNoAlignPct < 95.0) { data=betterThanNormal; }
-                else { data=normal; }
-                if (fslTimeAlignPct > 105.0) { data64=worseThanNormal; }
-                else if (fslTimeAlign64Pct < 95.0) { data64=betterThanNormal; }
-                else { data64=normal; }
-                if (fslTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
-                else if (fslTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
-                else { data128=normal; }
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data, fslTimeNoAlignPct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data64, fslTimeAlign64Pct);
-                printf("\t        <td %s><span %s> %.3f</span></td>\n", align, data128, fslTimeAlign128Pct);
+                if (fslTimeNoAlignPct > 105.0) { data=worseThanNormal; circle=redCircle; }
+                else if (fslTimeNoAlignPct < 95.0) { data=betterThanNormal; circle=greenCircle; }
+                else { data=normal; circle=blackCircle; }
+                if (fslTimeAlignPct > 105.0) { data64=worseThanNormal; circle64=redCircle; }
+                else if (fslTimeAlign64Pct < 95.0) { data64=betterThanNormal; circle64=greenCircle; }
+                else { data64=normal; circle64=blackCircle; }
+                if (fslTimeAlign128Pct > 105.0) { data128=worseThanNormal; circle128=redCircle; }
+                else if (fslTimeAlign128Pct < 95.0) { data128=betterThanNormal; circle128=greenCircle; }
+                else { data128=normal; circle128=blackCircle; }
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data, fslTimeNoAlignPct, circle);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data64, fslTimeAlign64Pct, circle64);
+                printf("\t        <td %s><span %s> %.3f %s</span></td>\n", align, data128, fslTimeAlign128Pct, circle128);
 
         printf("\t</tr>\n");
     }
