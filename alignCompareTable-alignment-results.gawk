@@ -46,8 +46,8 @@ BEGIN {
     }
 
     # build the table top and the header
-    styleBold="style\"text-align:center; font-weight:bold;\n";
-    style="style\"text-align:center;\n";
+    styleBold="style=\"text-align:center; font-weight:bold;\n";
+    style="style\="text-align:center;\n";
     printf("<table>\n");
     printf("    <thead>\n");
     printf("         <!-- Row 1 -->\n");

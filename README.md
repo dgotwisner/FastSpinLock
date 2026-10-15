@@ -56,8 +56,8 @@ amounts of time.  This implementation is optimized for that case.  `std::mutex` 
 
 ## Compatibility
 
-This class is a direct drop in for `std::mutex`, with one exception - std::condition_variable is not compatible.  If you want to
-use this, use std::condition_variable_any instead.
+This class is a direct drop in for `std::mutex`, with one exception - `std::condition_variable` is not compatible.  If you want to
+use this, use `std::condition_variable_any` instead.
 
 ## Where it should be used instead of std::mutex
 
