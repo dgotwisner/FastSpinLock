@@ -70,36 +70,37 @@ BEGIN {
 }
 END {
     for (i = 0; i <= 29; i++) {
-        normal=          "style=\"text-align right;\"";
-        rightBold=       "style=\"text-align right; font-weight:bold;\"";
-        betterThanNormal="style=\"text-align right; background-color: #d8ffd8;\"";
-        worseThanNormal= "style=\"text-align right; background-color: #ffd8d8;\"";
+        align=           "style=\"text-align right;\"";
+        normal=          "";
+        rightBold=       "style=\"font-weight:bold;\"";
+        betterThanNormal="style=\"background-color: #d8ffd8;\"";
+        worseThanNormal= "style=\"background-color: #ffd8d8;\"";
 
         # First row is the actual data
         printf("\t<tr>\n");
 
             printf("\t    <!-- Threads -->\n");
-            printf("\t        <td %s> %d</td>\n", rightBold, i);
+            printf("\t        <td %s><span %s> %d</span></td>\n", align, rightBold, i);
 
             printf("\t    <!-- Mutex Locks / Second -->\n");
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["Mutex", "LocksPerSecond", "NoAlign", i] / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["Mutex", "LocksPerSecond", "Align64", i] / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["Mutex", "LocksPerSecond", "Align128", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["Mutex", "LocksPerSecond", "NoAlign", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["Mutex", "LocksPerSecond", "Align64", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["Mutex", "LocksPerSecond", "Align128", i] / 10.0);
 
             printf("\t    <!-- Mutex User+System -->\n");
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["Mutex", "User", "NoAlign", i] + accum["Mutex", "System", "NoAlign", i]) / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["Mutex", "User", "Align64", i] + accum["Mutex", "System", "Align64", i]) / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["Mutex", "User", "Align128", i] + accum["Mutex", "System", "Align128", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["Mutex", "User", "NoAlign", i] + accum["Mutex", "System", "NoAlign", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["Mutex", "User", "Align64", i] + accum["Mutex", "System", "Align64", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["Mutex", "User", "Align128", i] + accum["Mutex", "System", "Align128", i]) / 10.0);
 
             printf("\t    <!-- FastSpinLock Locks / Second -->\n");
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["FastSpinLock", "LocksPerSecond", "NoAlign", i] / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["FastSpinLock", "LocksPerSecond", "Align64", i] / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, accum["FastSpinLock", "LocksPerSecond", "Align128", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["FastSpinLock", "LocksPerSecond", "NoAlign", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["FastSpinLock", "LocksPerSecond", "Align64", i] / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, accum["FastSpinLock", "LocksPerSecond", "Align128", i] / 10.0);
 
             printf("\t    <!-- FastSpinLock User+System -->\n");
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["FastSpinLock", "User", "NoAlign", i] + accum["FastSpinLock", "System", "NoAlign", i]) / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["FastSpinLock", "User", "Align64", i] + accum["FastSpinLock", "System", "Align64", i]) / 10.0);
-            printf("\t        <td %s> %.3f</td>\n", rightBold, (accum["FastSpinLock", "User", "Align128", i] + accum["FastSpinLock", "System", "Align128", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["FastSpinLock", "User", "NoAlign", i] + accum["FastSpinLock", "System", "NoAlign", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["FastSpinLock", "User", "Align64", i] + accum["FastSpinLock", "System", "Align64", i]) / 10.0);
+            printf("\t        <td %s><span %s> %.3f</span></td>\n", align, rightBold, (accum["FastSpinLock", "User", "Align128", i] + accum["FastSpinLock", "System", "Align128", i]) / 10.0);
 
         printf("\t</tr>\n");
 
@@ -113,7 +114,7 @@ END {
             #usrSysAlign128=(accum["Mutex", "User", "Align128", i] + accum["Mutex", "System", "Align128", i]);
 
             printf("\t    <!-- Threads -->\n");
-            printf("\t        <td %s>pct</td>\n", normal);
+            printf("\t        <td %s>pct</span></td>\n", normal);
 
             printf("\t    <!-- Mutex Locks / Second -->\n");
                 mtxLpsNoAlign=accum["Mutex", "LocksPerSecond", "NoAlign", i];
@@ -129,9 +130,9 @@ END {
                 if (mtxLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
                 else if (mtxLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s></td>\n", normal);
-                printf("\t        <td %s> %.3f</td>\n", data64, mtxLpsAlign64Pct);
-                printf("\t        <td %s> %.3f</td>\n", data128, mtxLpsAlign128Pct);
+                printf("\t        <td %s></span></td>\n", normal);
+                printf("\t        <td %s> %.3f</span></td>\n", data64, mtxLpsAlign64Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data128, mtxLpsAlign128Pct);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- Mutex User+System -->\n");
@@ -155,9 +156,9 @@ END {
                 if (mtxTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
                 else if (mtxTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s></td>\n", normal);
-                printf("\t        <td %s> %.3f</td>\n", data64, mtxTimeAlign64Pct);
-                printf("\t        <td %s> %.3f</td>\n", data128, mtxTimeAlign128Pct);
+                printf("\t        <td %s></span></td>\n", normal);
+                printf("\t        <td %s> %.3f</span></td>\n", data64, mtxTimeAlign64Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data128, mtxTimeAlign128Pct);
 
             #lps = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock Locks / Second -->\n");
@@ -179,9 +180,9 @@ END {
                 if (fslLpsAlign128Pct > 105.0) { data128=betterThanNormal; }
                 else if (fslLpsAlign128Pct < 95.0) { data128=worseThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s> %.3f</td>\n", data64, fslLpsNoAlignPct);
-                printf("\t        <td %s> %.3f</td>\n", data64, fslLpsAlign64Pct);
-                printf("\t        <td %s> %.3f</td>\n", data128, fslLpsAlign128Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data64, fslLpsNoAlignPct);
+                printf("\t        <td %s> %.3f</span></td>\n", data64, fslLpsAlign64Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data128, fslLpsAlign128Pct);
 
             #cpu = (new / old) * 100.0
             printf("\t    <!-- FastSpinLock User+System -->\n");
@@ -210,9 +211,9 @@ END {
                 if (fslTimeAlign128Pct > 105.0) { data128=worseThanNormal; }
                 else if (fslTimeAlign128Pct < 95.0) { data128=betterThanNormal; }
                 else { data128=normal; }
-                printf("\t        <td %s> %.3f</td>\n", data, fslTimeNoAlignPct);
-                printf("\t        <td %s> %.3f</td>\n", data64, fslTimeAlign64Pct);
-                printf("\t        <td %s> %.3f</td>\n", data128, fslTimeAlign128Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data, fslTimeNoAlignPct);
+                printf("\t        <td %s> %.3f</span></td>\n", data64, fslTimeAlign64Pct);
+                printf("\t        <td %s> %.3f</span></td>\n", data128, fslTimeAlign128Pct);
 
         printf("\t</tr>\n");
     }
