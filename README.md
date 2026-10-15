@@ -21,7 +21,7 @@ This project includes:
 - a benchmark directory (`benchmark/`), that compares FastSpinLock against `std::mutex` from 0-29 worker threads
   (1-30 total threads including main).  Gnuplot scripts (and png files) associated with a run on a
   CentOS 7 40-core 3.1 GHZ single-socket CPU and their input CSV files and output PNG files are attached in the repo.  `bench64\`
-  and `bench128\` are identical to `benchmark\`, except that they are modified to use asignas(64) and asignas(128), respectively.
+  and `bench128\` are identical to `benchmark\`, except that they are modified to use alignas(64) and alignas(128), respectively.
 - Unit tests (`tests/`) covering `std::lock_guard`, `std::unique_lock`, `std::conditional_variable_any`, and `try_lock()`.
   If COVERAGE is defined and passed to the test CMakeLists.txt, gcov/lcov is run on the unit tests, producing a coverage report.
 
