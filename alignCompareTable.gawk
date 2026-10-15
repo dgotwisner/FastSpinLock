@@ -70,11 +70,11 @@ BEGIN {
 }
 END {
     for (i = 0; i <= 29; i++) {
-        align=           "style=\"text-align right;\"";
+        align=           "style=\"text-align: right;\"";
         normal=          "";
         rightBold=       "style=\"font-weight:bold;\"";
-        betterThanNormal="style=\"background-color: #d8ffd8;\"";
-        worseThanNormal= "style=\"background-color: #ffd8d8;\"";
+        betterThanNormal="style=\"color: green;\"";
+        worseThanNormal= "style=\"color: red;\"";
 
         # First row is the actual data
         printf("\t<tr>\n");
