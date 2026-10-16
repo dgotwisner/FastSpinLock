@@ -60,6 +60,11 @@ target_link_libraries(fastspinlock_tests
 
 add_test(NAME fastspinlock_tests COMMAND fastspinlock_tests)
 
+# Mark sanitizer builds so tests that intentionally invoke UB can be compiled out.
+if(ASAN OR TSAN OR UBSAN)
+    target_compile_definitions(fastspinlock_tests PRIVATE FASTSPINLOCK_SANITIZER=1)
+endif()
+
 # --------------------------------------------------------------------
 # Coverage (gcov / lcov)
 # --------------------------------------------------------------------

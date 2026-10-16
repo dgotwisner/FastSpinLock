@@ -30,6 +30,10 @@ public:
     FastSpinLock() {
         m_lock = false;
     }
+
+    FastSpinLock(const FastSpinLock&) = delete;
+    FastSpinLock& operator=(const FastSpinLock&) = delete;
+
     void lock() {
         while (std::atomic_exchange_explicit(&m_lock, true, std::memory_order_acquire))
             ;
