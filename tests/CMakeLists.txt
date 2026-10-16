@@ -9,6 +9,7 @@ enable_testing()
 option(COVERAGE "Build tests with gcov/lcov coverage support" OFF)
 option(ASAN "Build tests with AddressSanitizer" OFF)
 option(TSAN "Build tests with ThreadSanitizer" OFF)
+option(UBSAN "Build tests with UndefinedBehaviorSanitizer" OFF)
 
 # Sanitizers and coverage instrumentation conflict; allow only one at a time.
 set(_INSTRUMENTATION_COUNT 0)
@@ -21,8 +22,11 @@ endif()
 if(TSAN)
     math(EXPR _INSTRUMENTATION_COUNT "${_INSTRUMENTATION_COUNT} + 1")
 endif()
+if(UBSAN)
+    math(EXPR _INSTRUMENTATION_COUNT "${_INSTRUMENTATION_COUNT} + 1")
+endif()
 if(_INSTRUMENTATION_COUNT GREATER 1)
-    message(FATAL_ERROR "COVERAGE, ASAN, and TSAN are mutually exclusive; enable only one")
+    message(FATAL_ERROR "COVERAGE, ASAN, TSAN, and UBSAN are mutually exclusive; enable only one")
 endif()
 
 # --------------------------------------------------------------------
@@ -167,6 +171,29 @@ if(TSAN)
         DEPENDS fastspinlock_tests
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
         COMMENT "Running unit tests with ThreadSanitizer"
+        VERBATIM
+    )
+endif()
+
+# --------------------------------------------------------------------
+# UndefinedBehaviorSanitizer (UBSan)
+# --------------------------------------------------------------------
+if(UBSAN)
+    foreach(target gtest gtest_main fastspinlock_tests)
+        target_compile_options(${target} PRIVATE
+            -O1 -g -fsanitize=undefined -fno-omit-frame-pointer
+            -fno-sanitize-recover=all
+        )
+        target_link_options(${target} PRIVATE -fsanitize=undefined)
+    endforeach()
+
+    add_custom_target(ubsan
+        COMMAND ${CMAKE_COMMAND} -E echo "Running unit tests under UndefinedBehaviorSanitizer..."
+        COMMAND $<TARGET_FILE:fastspinlock_tests>
+        COMMAND ${CMAKE_COMMAND} -E echo "UndefinedBehaviorSanitizer run completed successfully"
+        DEPENDS fastspinlock_tests
+        WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+        COMMENT "Running unit tests with UndefinedBehaviorSanitizer"
         VERBATIM
     )
 endif()

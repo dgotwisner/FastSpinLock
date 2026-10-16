@@ -24,7 +24,8 @@ This project includes:
   and `bench128\` are identical to `benchmark\`, except that they are modified to use alignas(64) and alignas(128), respectively.
 - Unit tests (`tests/`) covering `std::lock_guard`, `std::unique_lock`, `std::conditional_variable_any`, and `try_lock()`.
   Optional CMake flags (mutually exclusive): `-DCOVERAGE=ON` (gcov/lcov report via `coverage` target),
-  `-DASAN=ON` (AddressSanitizer via `asan` target), `-DTSAN=ON` (ThreadSanitizer via `tsan` target).
+  `-DASAN=ON` (AddressSanitizer via `asan` target), `-DTSAN=ON` (ThreadSanitizer via `tsan` target),
+  `-DUBSAN=ON` (UndefinedBehaviorSanitizer via `ubsan` target).
 
 ---
 
